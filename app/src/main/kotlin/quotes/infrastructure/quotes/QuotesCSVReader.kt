@@ -1,22 +1,22 @@
 package quotes.infrastructure.quotes
 
-import quotes.entities.quotes.Quote
 import quotes.infrastructure.csv.CSVReader
+import quotes.use_cases.quotes.QuoteDto
 import java.util.stream.Collectors
 
-class QuotesCSVReader(file: String): CSVReader<List<Quote>>(file) {
-    override fun getAll(): List<Quote> {
+class QuotesCSVReader(file: String): CSVReader<List<QuoteDto>>(file) {
+    override fun getAll(): List<QuoteDto> {
         val rows: List<Map<String, String>> = readAllWithHeader()
         return rows.stream().map { row ->
-            Quote(
+            QuoteDto(
                     symbol = extractString(row, "SYMBOL"),
                     name = extractString(row, "NAME"),
-                    marketCap = extractAmount(row, "MARKETCAP"),
-                    price = extractAmount(row, "PRICE"),
-                    dailyChange = extractAmount(row, "DAILYCHANGE"),
+                    marketCap = extractDouble(row, "MARKETCAP"),
+                    price = extractDouble(row, "PRICE"),
+                    dailyChange = extractDouble(row, "DAILYCHANGE"),
                     dailyChangePercent = extractDouble(row, "DAILY_CHANGE_PERCENT"),
-                    currency = extractCurrency(row, "CURRENCY"),
-                    date = extractDate(row, "DATE")
+                    currency = extractString(row, "CURRENCY"),
+                    date = extractString(row, "DATE")
             )
         }.collect(Collectors.toList())
     }

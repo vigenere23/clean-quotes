@@ -34,6 +34,10 @@ class Quote(
         return dailyChange
     }
 
+    fun getDailyChangePercent(): Double {
+        return dailyChangePercent
+    }
+
     fun getCurrency(): Currency {
         return currency
     }

@@ -1,6 +1,6 @@
 package quotes.use_cases.quotes
 
-import quotes.assemblers.QuotesAssembler
+import quotes.assemblers.quotes.QuotesAssembler
 import quotes.entities.quotes.QuotesFilterParams
 import quotes.entities.quotes.QuotesRepository
 
