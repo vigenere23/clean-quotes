@@ -1,4 +1,4 @@
-package quotes.use_cases
+package quotes.use_cases.quotes
 
 data class QuoteDto(
         val symbol: String,

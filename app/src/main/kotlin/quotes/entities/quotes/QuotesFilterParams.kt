@@ -1,4 +1,7 @@
-package quotes.entities
+package quotes.entities.quotes
+
+import quotes.entities.Amount
+import quotes.entities.Currency
 
 data class QuotesFilterParams(
         val minDailyChange: Amount?,

@@ -1,13 +1,13 @@
-package shared
+package quotes.infrastructure.filters
 
 import java.util.stream.Collectors
 import java.util.stream.Stream
 
-class FilterContainer<T> {
+class InMemoryFilterBuilder<T> {
     private var items: List<T> = ArrayList()
     private val filters: MutableList<(T) -> Boolean> = ArrayList()
 
-    fun setItems(items: List<T>): FilterContainer<T> {
+    fun setItems(items: List<T>): InMemoryFilterBuilder<T> {
         this.items = items
         return this
     }

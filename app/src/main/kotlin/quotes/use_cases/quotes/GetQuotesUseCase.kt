@@ -1,22 +1,20 @@
-package quotes.use_cases
+package quotes.use_cases.quotes
 
 import quotes.assemblers.QuotesAssembler
-import quotes.entities.QuotesFilterFactory
-import quotes.entities.QuotesFilterParams
-import quotes.entities.QuotesRepository
+import quotes.entities.quotes.QuotesFilterParams
+import quotes.entities.quotes.QuotesRepository
 
 class GetQuotesUseCase(
-        private val quotesFilterFactory: QuotesFilterFactory,
         private val quotesRepository: QuotesRepository,
         private val quotesAssembler: QuotesAssembler
 ) {
     fun execute(quotesFilterParams: QuotesFilterParams): List<QuoteDto> {
-        val quotesFilter = quotesFilterFactory.create()
+        val query = quotesRepository.queryBuilder()
                 .withMinDailyChange(quotesFilterParams.minDailyChange)
                 .withCurrency(quotesFilterParams.currency)
                 .withMinMarketCap(quotesFilterParams.minMarketCap)
 
-        val filteredQuotes = quotesRepository.findAll(quotesFilter)
+        val filteredQuotes = query.results()
         return quotesAssembler.toDtos(filteredQuotes)
     }
 }

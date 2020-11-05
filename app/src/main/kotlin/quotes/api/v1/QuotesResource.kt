@@ -4,8 +4,8 @@ import io.ktor.application.*
 import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*
-import quotes.entities.QuotesFilterParamsFactory
-import quotes.use_cases.GetQuotesUseCase
+import quotes.entities.quotes.QuotesFilterParamsFactory
+import quotes.use_cases.quotes.GetQuotesUseCase
 
 fun Routing.quotes(getQuotesUseCase: GetQuotesUseCase, quotesFilterParamsFactory: QuotesFilterParamsFactory) {
     route("/quotes") {

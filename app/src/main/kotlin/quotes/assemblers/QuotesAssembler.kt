@@ -1,7 +1,7 @@
 package quotes.assemblers
 
-import quotes.entities.Quote
-import quotes.use_cases.QuoteDto
+import quotes.entities.quotes.Quote
+import quotes.use_cases.quotes.QuoteDto
 import java.util.stream.Collectors
 
 class QuotesAssembler {
