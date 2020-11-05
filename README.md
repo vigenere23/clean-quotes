@@ -1,5 +1,12 @@
-THE CLEAN QUOTE API
-===================
+# THE CLEAN QUOTE API
+
+## TODO
+
+- [ ] Tests
+- [ ] CI/CD
+- [ ] Real DB
+
+## Task
 
 Pour compléter ce test, vous devez implanter une API HTTP REST qui va retourner des données boursières. 
 
