@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee9b5844-8372-466d-a03f-d5c5b96a71b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jqM2ok7VJXRhO1l1BLEXnBLdRh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="quotes.infrastructure" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="quotes.entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.AppKt">
+    <configuration name="Main" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="quotes.app.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="quotes.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Main" />
+      <item itemvalue="Kotlin.AppKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AppKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1378" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604531119385">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1378" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604531119385" />
+    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1604541302175">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser/0.27.2560.1413@0.27.2560.1413" timestamp="1604541302175" />
+    <state x="1694" y="500" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1604535222815">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1694" y="500" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604535222815" />
+    <state width="1238" height="474" key="GridCell.Tab.0.bottom" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.0.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.0.center" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.0.center/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.0.left" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.0.left/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.0.right" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.0.right/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.1.bottom" timestamp="1604545045640">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.1.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045640" />
+    <state width="1238" height="474" key="GridCell.Tab.1.center" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.1.center/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.1.left" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.1.left/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state width="1238" height="474" key="GridCell.Tab.1.right" timestamp="1604545045639">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="1238" height="474" key="GridCell.Tab.1.right/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
+    <state x="1403" y="311" width="1024" height="852" key="SettingsEditor" timestamp="1604531758974">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1403" y="311" width="1024" height="852" key="SettingsEditor/0.27.2560.1413@0.27.2560.1413" timestamp="1604531758974" />
+    <state x="1425" y="390" width="980" height="693" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604543432147">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="1425" y="390" width="980" height="693" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.2560.1413@0.27.2560.1413" timestamp="1604543432147" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.time.format.DateTimeParseException" package="java.time.format" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
