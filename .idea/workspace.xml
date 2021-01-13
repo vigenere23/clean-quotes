@@ -19,9 +19,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="package-info" />
         <option value="Class" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -46,18 +47,26 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="quotes.quote.setup" />
+      <recent name="quotes.shared.infrastructure" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="quotes.assemblers.quotes" />
-      <recent name="quotes.entities.quotes" />
-      <recent name="quotes.infrastructure.filters" />
-      <recent name="quotes.use_cases.quotes" />
-      <recent name="quotes.infrastructure.quotes" />
+      <recent name="quotes.quote.infrastructure.populator" />
+      <recent name="quotes.quote.application.dtos" />
+      <recent name="quotes.quote.api.dtos" />
+      <recent name="quotes.quote.infrastructure.query_builder" />
+      <recent name="quotes.quote.infrastructure.csv" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="quotes.infrastructure" />
       <recent name="quotes.entities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/quote/setup" />
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/quote/api" />
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/quote" />
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/quote/module" />
       <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/api/v1/quotes" />
     </key>
   </component>
@@ -113,34 +122,42 @@
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
     <state x="1378" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604531119385" />
-    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1604541302175">
+    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1610498973068">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser/0.27.2560.1413@0.27.2560.1413" timestamp="1604541302175" />
-    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604590567252">
+    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser/0.27.2560.1413@0.27.2560.1413" timestamp="1610498973068" />
+    <state x="1054" y="637" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610499237208">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604590567252" />
-    <state x="1694" y="500" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1604598684147">
+    <state x="1054" y="637" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.2560.1413@0.27.2560.1413" timestamp="1610499237208" />
+    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610498686944">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state x="1694" y="500" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604598684147" />
-    <state width="1238" height="386" key="GridCell.Tab.0.bottom" timestamp="1604601495573">
+    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610498686944" />
+    <state x="1013" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610497121421">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state width="1238" height="386" key="GridCell.Tab.0.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1604601495573" />
-    <state width="1238" height="386" key="GridCell.Tab.0.center" timestamp="1604601495572">
+    <state x="1013" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610497121421" />
+    <state x="1694" y="500" width="470" height="518" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1610497561973">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state width="1238" height="386" key="GridCell.Tab.0.center/0.27.2560.1413@0.27.2560.1413" timestamp="1604601495572" />
-    <state width="1238" height="386" key="GridCell.Tab.0.left" timestamp="1604601495572">
+    <state x="1694" y="500" width="470" height="518" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610497561973" />
+    <state width="2518" height="386" key="GridCell.Tab.0.bottom" timestamp="1610499245616">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state width="1238" height="386" key="GridCell.Tab.0.left/0.27.2560.1413@0.27.2560.1413" timestamp="1604601495572" />
-    <state width="1238" height="386" key="GridCell.Tab.0.right" timestamp="1604601495573">
+    <state width="2518" height="386" key="GridCell.Tab.0.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245616" />
+    <state width="2518" height="386" key="GridCell.Tab.0.center" timestamp="1610499245615">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>
-    <state width="1238" height="386" key="GridCell.Tab.0.right/0.27.2560.1413@0.27.2560.1413" timestamp="1604601495573" />
+    <state width="2518" height="386" key="GridCell.Tab.0.center/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245615" />
+    <state width="2518" height="386" key="GridCell.Tab.0.left" timestamp="1610499245615">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="2518" height="386" key="GridCell.Tab.0.left/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245615" />
+    <state width="2518" height="386" key="GridCell.Tab.0.right" timestamp="1610499245616">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state width="2518" height="386" key="GridCell.Tab.0.right/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245616" />
     <state width="1238" height="474" key="GridCell.Tab.1.bottom" timestamp="1604545045640">
       <screen x="0" y="27" width="2560" height="1413" />
     </state>

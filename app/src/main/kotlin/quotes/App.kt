@@ -8,11 +8,12 @@ import io.ktor.features.*
 import io.ktor.jackson.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import quotes.modules.quotesModule
+import quotes.quote.setup.quotesModule
 
 fun Application.module() {
     install(ContentNegotiation) { jackson() }
     quotesModule()
+    // TODO add exception mapping
 }
 
 fun main() {
