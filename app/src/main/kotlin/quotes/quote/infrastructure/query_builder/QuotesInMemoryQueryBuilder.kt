@@ -38,7 +38,7 @@ class QuotesInMemoryQueryBuilder(
         return this
     }
 
-    override fun results(): List<Quote> {
+    override fun getAll(): List<Quote> {
         return inMemoryFilterBuilder
                 .setItems(originalItems)
                 .getResults()

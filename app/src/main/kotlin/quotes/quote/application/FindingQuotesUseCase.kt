@@ -10,12 +10,12 @@ class FindingQuotesUseCase(
         private val quotesAssembler: QuotesAssembler
 ) {
     fun execute(quotesFilterParams: QuotesFilterParams): List<QuoteDto> {
-        val query = quotesRepository.queryBuilder()
+        val query = quotesRepository.find()
                 .withMinDailyChange(quotesFilterParams.minDailyChange)
                 .withCurrency(quotesFilterParams.currency)
                 .withMinMarketCap(quotesFilterParams.minMarketCap)
 
-        val filteredQuotes = query.results()
+        val filteredQuotes = query.getAll()
         return quotesAssembler.toDtos(filteredQuotes)
     }
 }

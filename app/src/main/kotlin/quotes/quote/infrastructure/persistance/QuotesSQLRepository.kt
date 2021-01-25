@@ -12,7 +12,7 @@ class QuotesSQLRepository(
         // TODO transform to DB dto and save
     }
 
-    override fun queryBuilder(): QuotesQueryBuilder {
+    override fun find(): QuotesQueryBuilder {
         return QuotesSQLQueryBuilder("SELECT * FROM quotes" /*, dbConnection*/)
     }
 }

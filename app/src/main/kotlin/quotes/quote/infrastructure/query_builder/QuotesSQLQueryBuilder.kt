@@ -35,7 +35,7 @@ class QuotesSQLQueryBuilder(
         return this
     }
 
-    override fun results(): List<Quote> {
+    override fun getAll(): List<Quote> {
         val query = "$selection ${conditionsBuilder.buildQuery()}"
         // TODO execute query with DB connection
         TODO("Not yet implemented")

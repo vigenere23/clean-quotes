@@ -12,7 +12,7 @@ class QuotesInMemoryRepository: QuotesRepository {
         quotes.add(quote)
     }
 
-    override fun queryBuilder(): QuotesQueryBuilder {
+    override fun find(): QuotesQueryBuilder {
         return QuotesInMemoryQueryBuilder(quotes.toList())
     }
 }

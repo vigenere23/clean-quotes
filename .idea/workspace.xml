@@ -40,6 +40,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -70,7 +73,7 @@
       <recent name="$PROJECT_DIR$/app/src/main/kotlin/quotes/api/v1/quotes" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AppKt">
+  <component name="RunManager" selected="Gradle.Main">
     <configuration name="Main" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,7 +90,9 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -105,87 +110,25 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Main" />
-      <item itemvalue="Kotlin.AppKt" />
+      <item itemvalue="Application.AppKt" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.AppKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee9b5844-8372-466d-a03f-d5c5b96a71b2" name="Default Changelist" comment="" />
+      <created>1611554229462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611554229462</updated>
+      <workItem from="1611554232956" duration="343000" />
+      <workItem from="1611554591133" duration="1497000" />
+      <workItem from="1611556110485" duration="237000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1378" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604531119385">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1378" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1604531119385" />
-    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1610498973068">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1702" y="452" width="435" height="625" key="#com.intellij.ide.util.MemberChooser/0.27.2560.1413@0.27.2560.1413" timestamp="1610498973068" />
-    <state x="1054" y="637" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610499237208">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1054" y="637" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.2560.1413@0.27.2560.1413" timestamp="1610499237208" />
-    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610498686944">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="970" y="350" width="600" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610498686944" />
-    <state x="1013" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610497121421">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1013" y="483" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610497121421" />
-    <state x="1694" y="500" width="470" height="518" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1610497561973">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1694" y="500" width="470" height="518" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.2560.1413@0.27.2560.1413" timestamp="1610497561973" />
-    <state width="2518" height="386" key="GridCell.Tab.0.bottom" timestamp="1610499245616">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="2518" height="386" key="GridCell.Tab.0.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245616" />
-    <state width="2518" height="386" key="GridCell.Tab.0.center" timestamp="1610499245615">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="2518" height="386" key="GridCell.Tab.0.center/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245615" />
-    <state width="2518" height="386" key="GridCell.Tab.0.left" timestamp="1610499245615">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="2518" height="386" key="GridCell.Tab.0.left/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245615" />
-    <state width="2518" height="386" key="GridCell.Tab.0.right" timestamp="1610499245616">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="2518" height="386" key="GridCell.Tab.0.right/0.27.2560.1413@0.27.2560.1413" timestamp="1610499245616" />
-    <state width="1238" height="474" key="GridCell.Tab.1.bottom" timestamp="1604545045640">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="1238" height="474" key="GridCell.Tab.1.bottom/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045640" />
-    <state width="1238" height="474" key="GridCell.Tab.1.center" timestamp="1604545045639">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="1238" height="474" key="GridCell.Tab.1.center/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
-    <state width="1238" height="474" key="GridCell.Tab.1.left" timestamp="1604545045639">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="1238" height="474" key="GridCell.Tab.1.left/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
-    <state width="1238" height="474" key="GridCell.Tab.1.right" timestamp="1604545045639">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state width="1238" height="474" key="GridCell.Tab.1.right/0.27.2560.1413@0.27.2560.1413" timestamp="1604545045639" />
-    <state x="1403" y="311" width="1024" height="852" key="SettingsEditor" timestamp="1604531758974">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1403" y="311" width="1024" height="852" key="SettingsEditor/0.27.2560.1413@0.27.2560.1413" timestamp="1604531758974" />
-    <state x="1425" y="390" width="980" height="693" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604543432147">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="1425" y="390" width="980" height="693" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.2560.1413@0.27.2560.1413" timestamp="1604543432147" />
-    <state x="943" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1604588132882">
-      <screen x="0" y="27" width="2560" height="1413" />
-    </state>
-    <state x="943" y="349" width="672" height="678" key="search.everywhere.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1604588132882" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
